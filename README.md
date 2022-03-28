@@ -11,10 +11,9 @@
 This course, we are going to learn about C programming. So, we are going to pull up to our GitHub some practical exercises for our improvement, our skills and our knowledge. I hope that it is a great subject. Learn is always good.
 
 ### 2. PRACTICAL EXERCISES
-
 <br>
 
-Exercises 1:
+### - Exercises 1:
     
 1. Hello World => its own C code => ![](HelloWorld.png)
 2. Print Integer => its own C code => ![](Print_Integer.png)
@@ -27,5 +26,39 @@ Exercises 1:
 9. Complex numbers => its own C code => ![](Complex_numbers.png)
 10. Photo Store => its own C code => ![](Photo_Store.jpg)
 11. Food for a cat => its own C code => ![](Food_for_cat.jpg)
+
+### - Exercises 2:
+    
+1. 
+
+### - Exercises 3:
+    
+1. 
+
+### - Exercises 4:
+    
+1. 
+
+### - Exercises 5:
+    
+1. 
+
+### - Exercises 6:
+    
+1. 
+
+### - Exercises 7:
+    
+1. 
+
+### - Exercises 8:
+    
+1. 
+
+### - Exercises 9:
+    
+1. 
+
+<br>
 
 PS: The photos are editted by Adobe Photoshop.
