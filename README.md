@@ -2,7 +2,8 @@
 
 <br>
 
-![](CProg.png)
+![By CodeBlocks](CProg.png)
+By CodeBlocks
 
 <br>
 
