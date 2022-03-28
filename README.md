@@ -27,3 +27,5 @@ Exercises 1:
 9. Complex numbers => its own C code => ![](Complex_numbers.png)
 10. Photo Store => its own C code => ![](Photo_Store.jpg)
 11. Food for a cat => its own C code => ![](Food_for_cat.jpg)
+
+PS: The photos are editted by Adobe Photoshop.
