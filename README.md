@@ -16,17 +16,18 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 1:
     
-1. Hello World => its own C code => ![](HelloWorld.png)
-2. Print Integer => its own C code => ![](Print_Integer.png)
-3. Print Three Integers => its own C code => ![](Print_Three_Integers.png)
-4. Read Integer => its own C code => ![](Read_Integer.png)
-5. Read Two Integers => its own C code => ![](Read_Two_Integers.png)
-6. Your Year => its own C code => ![](Your_Year.png)
-7. Other Years => its own C code => ![](Other_Years.png)
-8. Swap Digits => its own C code => ![](Swap_Digits.png)
-9. Complex numbers => its own C code => ![](Complex_numbers.png)
-10. Photo Store => its own C code => ![](Photo_Store.jpg)
-11. Food for a cat => its own C code => ![](Food_for_cat.jpg)
+1. Hello World => its own C code is in the folder Exercise1 > 1HelloWorld.
+2. Print Integer => its own C code is in the folder Exercise1 > 2Print_Integer.
+3. Print Three Integers => its own C code is in the folder Exercise1 > 3Print_Three_Integers.
+4. Read Integer => its own C code is in the folder Exercise1 > 4Read_Integer.
+5. Read Two Integers => its own C code is in the folder Exercise1 > 5Read_Two_Integers.
+6. Your Year => its own C code is in the folder Exercise1 > 6Your_Year.
+7. Other Years => its own C code is in the folder Exercise1 > 7Other_Years.
+8. Swap Digits => its own C code is in the folder Exercise1 > 8Swap_Digits => ![](Swap_Digits.png)
+9. Complex numbers => its own C code is in the folder Exercise1 > 9Complex_numbers.
+10. Photo Store => its own C code is in the folder Exercise1 > 10Photo_Store => ![](Photo_Store.jpg)
+11. Food for a cat => its own C code is in the folder Exercise1 > 11Food_for_cat => ![](Food_for_cat.jpg)
+- The statement of the Exercise 1 is in the folder Exercise1 > PDF.
 
 ### - Exercises 2:
     
