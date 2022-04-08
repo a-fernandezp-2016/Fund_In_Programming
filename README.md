@@ -31,7 +31,25 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 2:
     
-1. 
+1. Practice 2.1 => its own C code is in the folder Exercise2 > Practice2_1.
+2. Practice 2.2 => its own C code is in the folder Exercise2 > Practice2_2.
+3. Practice 2.3 => its own C code is in the folder Exercise2 > Practice2_3.
+4. Practice 2.4 => its own C code is in the folder Exercise2 > Practice2_4.
+5. Practice 2.5 => its own C code is in the folder Exercise2 > Practice2_5.
+6. Practice 2.6 => its own C code is in the folder Exercise2 > Practice2_6.
+7. Practice 2.7 => its own C code is in the folder Exercise2 > Practice2_7.
+8. Practice 2.8 => its own C code is in the folder Exercise2 > Practice2_8.
+9. Practice 2.9 => its own C code is in the folder Exercise2 > Practice2_9.
+10. Practice 2.10 => its own C code is in the folder Exercise2 > Practice2_10.
+11. Practice 2.11 => its own C code is in the folder Exercise2 > Practice2_11.
+12. Practice 2.12 => its own C code is in the folder Exercise2 > Practice2_12.
+13. Practice 2.13 => its own C code is in the folder Exercise2 > Practice2_13.
+14. Practice 2.14 => its own C code is in the folder Exercise2 > Practice2_14.
+15. Practice 2.15 => its own C code is in the folder Exercise2 > Practice2_15.
+16. Practice 2.16 => its own C code is in the folder Exercise2 > Practice2_16.
+- The statement of the Exercise 2 is in the folder Exercise2 > PDF.
+
+- Important image about the ASCII Table => ![](ASCII_Table.jpg)
 
 ### - Exercises 3:
     
