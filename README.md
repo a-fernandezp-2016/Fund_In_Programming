@@ -53,7 +53,16 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 3:
     
-1. 
+1. Practice 3.1 => its own C code is in the folder Exercise3 > Practice3_1.
+2. Practice 3.2 => its own C code is in the folder Exercise3 > Practice3_2.
+3. Practice 3.3 => its own C code is in the folder Exercise3 > Practice3_3.
+4. Practice 3.4 => its own C code is in the folder Exercise3 > Practice3_4.
+5. Practice 3.5 => its own C code is in the folder Exercise3 > Practice3_5.
+6. Practice 3.6 => its own C code is in the folder Exercise3 > Practice3_6.
+7. Practice 3.7 => its own C code is in the folder Exercise3 > Practice3_7.
+8. Practice 3.8 => its own C code is in the folder Exercise3 > Practice3_8.
+9. Practice 3.9 => its own C code is in the folder Exercise3 > Practice3_9.
+- The statement of the Exercise 3 is in the folder Exercise3 > PDF.
 
 ### - Exercises 4:
     
