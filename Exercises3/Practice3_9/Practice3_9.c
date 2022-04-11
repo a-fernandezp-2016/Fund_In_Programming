@@ -5,12 +5,13 @@
 
 //To declare the const of converting to inch and to feet.
 #define CTE_CM 2.54
-#define CTE_INCH 12.0
+#define CTE_INCH 12
 
 void main()
 {
     //To declare the variable of seconds, minutes and hours.
-    float length_measure_cm, length_measure_inch, length_measure_feet;
+    float length_measure_cm, length_measure_inch;
+    int length_measure_feet;
 
     //Start the program.....
     printf("\n\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n");
@@ -20,9 +21,9 @@ void main()
 
     //Doing operations.....
     printf("\n\n\tDoing the Length Converter operations....\n\n");
-    length_measure_inch = length_measure_cm / CTE_CM;
-    length_measure_feet = length_measure_inch / CTE_INCH;
+    length_measure_feet = length_measure_cm / (CTE_CM * CTE_INCH);
+    length_measure_inch = (length_measure_cm - (length_measure_feet * CTE_INCH * CTE_CM)) / CTE_CM;
 
     //Print the stopwatch....
-    printf("\n\n%g cm <=> %g inch <=> %g feet\n\n", length_measure_cm, length_measure_inch, length_measure_feet);
+    printf("\n\n%g cm <=> %d feet %g inch.\n\n", length_measure_cm, length_measure_feet, length_measure_inch);
 }

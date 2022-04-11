@@ -9,7 +9,8 @@
 void main()
 {
     //To declare the radius variable, the area of the circle variable, and the power of the pow.
-    float radius, area_circle, power = 2.0;
+    float radius, area_circle;
+    int power = 2;
 
     //Start the program.....
     printf("\nPlease, introduce the radius of the circle: ");
