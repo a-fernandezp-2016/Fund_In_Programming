@@ -36,17 +36,17 @@ void main()
     {
         if(pow(b,2)-4*a*c < 0)
         {
-            printf("\n\nThe solution of the quadratic equation is going to be as a complex number => (realPart) + i(imaginayPart).\n\n");
+            printf("\n\nThe solution of the quadratic equation %gx^2 + (%g)x + (%g) = 0 is irrational.\n\n", a, b, c);
         }
         else
         {
             if(x1 == x2)
             {
-                printf("\n\nThe solution of the quadratic equation is going to be unique => 1 solution => x1 = x2 = %g\n\n", x1);
+                printf("\n\nThe solution of the quadratic equation %gx^2 + (%g)x + (%g) = 0 is rational with 1 solution => x1 = x2 = %g\n\n", a, b, c, x1);
             }
             else
             {
-                printf("\n\nThe solution of the quadratic equation is going to be multiple => 2 solutions => x1 = %g and x2 = %g\n\n", x1, x2);
+                printf("\n\nThe solution of the quadratic equation %gx^2 + (%g)x + (%g) = 0 is rational with 2 solutions => x1 = %g and x2 = %g\n\n", a, b, c, x1, x2);
             }
         }
     }
