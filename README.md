@@ -78,23 +78,52 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 5:
     
-1. 
+1. Practice 5.1 => its own C code is in the folder Exercise5 > Practice5_1.
+2. Practice 5.2 => its own C code is in the folder Exercise5 > Practice5_2.
+3. Practice 5.3 => its own C code is in the folder Exercise5 > Practice5_3.
+4. Practice 5.4 => its own C code is in the folder Exercise5 > Practice5_4.
+5. Practice 5.5 => its own C code is in the folder Exercise5 > Practice5_5.
+6. Practice 5.6 => its own C code is in the folder Exercise5 > Practice5_6.
+7. Practice 5.7 => its own C code is in the folder Exercise5 > Practice5_7.
+8. Practice 5.8 => its own C code is in the folder Exercise5 > Practice5_8.
+9. Practice 5.9 => its own C code is in the folder Exercise5 > Practice5_9.
+10. Practice 5.10 => its own C code is in the folder Exercise5 > Practice5_10.
+11. Practice 5.11 => its own C code is in the folder Exercise5 > Practice5_11.
+12. Practice 5.12 => its own C code is in the folder Exercise5 > Practice5_12.
+13. Practice 5.13 => its own C code is in the folder Exercise5 > Practice5_13.
+14. Practice 5.14 => its own C code is in the folder Exercise5 > Practice5_14.
+15. Practice 5.15 => its own C code is in the folder Exercise5 > Practice5_15.
+- The statement of the Exercise 5 is in the folder Exercise5 > PDF.
 
 ### - Exercises 6:
     
-1. 
+1. Practice 6.1 => its own C code is in the folder Exercise6 > Practice6_1.
+- The statement of the Exercise 6 is in the folder Exercise6 > PDF.
 
 ### - Exercises 7:
     
-1. 
+1. Practice 7.1 => its own C code is in the folder Exercise7 > Practice7_1.
+2. Practice 7.2 => its own C code is in the folder Exercise7 > Practice7_2.
+3. Practice 7.3 => its own C code is in the folder Exercise7 > Practice7_3.
+4. Practice 7.4 => its own C code is in the folder Exercise7 > Practice7_4.
+5. Practice 7.5 => its own C code is in the folder Exercise7 > Practice7_5.
+6. Practice 7.6 => its own C code is in the folder Exercise7 > Practice7_6.
+7. Practice 7.7 => its own C code is in the folder Exercise7 > Practice7_7.
+- The statement of the Exercise 7 is in the folder Exercise7 > PDF.
 
 ### - Exercises 8:
     
-1. 
+1. Practice 8.1 => its own C code is in the folder Exercise8 > Practice8_1.
+2. Practice 8.2 => its own C code is in the folder Exercise8 > Practice8_2.
+3. Practice 8.3 => its own C code is in the folder Exercise8 > Practice8_3.
+4. Practice 8.4 => its own C code is in the folder Exercise8 > Practice8_4.
+5. Practice 8.5 => its own C code is in the folder Exercise8 > Practice8_5.
+- The statement of the Exercise 8 is in the folder Exercise8 > PDF.
 
 ### - Exercises 9:
     
-1. 
+1. Practice 9.1 => its own C code is in the folder Exercise9 > Practice9_1.
+- The statement of the Exercise 9 is in the folder Exercise9 > PDF.
 
 <br>
 
