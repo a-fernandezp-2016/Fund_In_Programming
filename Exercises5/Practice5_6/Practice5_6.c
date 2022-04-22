@@ -24,4 +24,5 @@ void main()
 
     //To print the results....
     printf("\n\n%d! = %d\n\n", num, store);
+
 }

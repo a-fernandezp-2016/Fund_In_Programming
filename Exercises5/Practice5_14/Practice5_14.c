@@ -1,43 +1,30 @@
-/* 5.14. Program about making a program that uses a for loop make a program that will print out the multiplication table in the following format: ... */
+/* 5.14. Program about making a program that using a for loop, it is going to get a program that will print out the multiplication table in the following format: ... */
 #include <stdio.h>
+#define FINAL_NUM 10
 
 void main()
 {
-    //To declare the previous, the actual and an auxiliar variable.
-    int pre = 0, actual = 1, aux;
-    //To declare the n numbers that the user wants to introduce by keyboard. And the counter i variable.
-    int n, i;
+    //To declare the counter i and j variables.
+    int i, j;
 
     //Start the program....
     printf("\n\n");
-    printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+    printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
     printf("\n");
-    printf("$$$$$$$$ MULTIPLICATION TABLE $$$$$$$$");
+    printf("$$$$$$$$$ MULTIPLICATION TABLE $$$$$$$$$");
     printf("\n");
-    printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+    printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
     printf("\n");
-    printf("Please, introduce a number: ");
-    scanf("%d", &n);
 
     //Doing the operations and printing the results...
-    printf("\n\nThe Fibonacci sequence is: %d,%d", pre, actual);
-    if(n != 0)
+    printf("\n\n");
+    for(i=1; i<=FINAL_NUM; i++)
     {
-        printf(",");
-    }
-    for(i=1; i<=n; i++)
-    {
-        aux = actual;
-        actual = pre + actual;
-        pre = aux;
-        if(i != n)
+        for(j=1; j<=FINAL_NUM; j++)
         {
-            printf("%d,", actual);
+            printf("%4.d", i * j); //%4.d is for organizing the table.
         }
-        else
-        {
-            printf("%d", actual);
-        }
+        printf("\n");
     }
     printf("\n\n");
 }
