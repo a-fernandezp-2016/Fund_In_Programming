@@ -3,17 +3,16 @@ month and on which day it begins (which day of the week is the first in the mont
 the following format: ... */
 #include <stdio.h>
 
-//To define ctes...
-#define SEVENDAYS 7
-
 void main()
 {
     //To declare a variable for days and for names of the week.
     int days, pos_week;
-    //To declare the counters i and j. And the count to print every days.
-    int i, j, count;
+    //To declare the counters i and j. And a auxiliar variable to reduce until Sunday.
+    int i, j, aux;
+    //To declare the space character.
+    char space = ' ';
 
-    //Start the program....
+    //Start the program. Doing the operations and printing the results...
     do
     {
         printf("\n\n");
@@ -25,71 +24,74 @@ void main()
         printf("\n");
         printf("How many days does the month have? : ");
         scanf("%d", &days);
-        do
+        if((days < 28) || (days > 31))
         {
-            printf("###################################");
-            printf("\n");
-            printf("######### DAYS OF THE WEEK ########");
-            printf("\n");
-            printf("###################################");
-            printf("\n");
-            printf("# 1. Monday.                      #");
-            printf("\n");
-            printf("# 2. Tuesday                      #");
-            printf("\n");
-            printf("# 3. Wednesday.                   #");
-            printf("\n");
-            printf("# 4. Thursday.                    #");
-            printf("\n");
-            printf("# 5. Friday.                      #");
-            printf("\n");
-            printf("# 6. Saturday.                    #");
-            printf("\n");
-            printf("# 7. Sunday.                      #");
-            printf("\n");
-            printf("###################################");
-            printf("Which is the first day of the week? : ");
-            scanf("%d", &pos_week);
+            printf("\n\nYou only can introduce the numbers: 28, 29, 30 or 31.\nTRY AGAIN!\n\n");
+        }
+        else
+        {
+            do
+            {
+                printf("###################################");
+                printf("\n");
+                printf("######### DAYS OF THE WEEK ########");
+                printf("\n");
+                printf("###################################");
+                printf("\n");
+                printf("# 1. Monday.                      #");
+                printf("\n");
+                printf("# 2. Tuesday                      #");
+                printf("\n");
+                printf("# 3. Wednesday.                   #");
+                printf("\n");
+                printf("# 4. Thursday.                    #");
+                printf("\n");
+                printf("# 5. Friday.                      #");
+                printf("\n");
+                printf("# 6. Saturday.                    #");
+                printf("\n");
+                printf("# 7. Sunday.                      #");
+                printf("\n");
+                printf("###################################");
+                printf("Which is the first day of the week? : ");
+                scanf("%d", &pos_week);
 
-            //Doing the operations and printing the results...
-            if((pos_week < 1) || (pos_week > 7))
-            {
-                printf("\n\nTHERE IS NO EXIST THAT DAY OF THE WEEK, SORRY.");
-                printf("\nTRY AGAIN!\n\n");
-            }
-            else
-            {
-                if((days < 28) || (days > 31))
+                if((pos_week < 1) || (pos_week > 7))
                 {
-                    printf("\n\nYou only can introduce the numbers: 28, 29, 30 or 31.\nTRY AGAIN!\n\n");
+                    printf("\n\nTHERE IS NO EXIST THAT DAY OF THE WEEK, SORRY.");
+                    printf("\nTRY AGAIN!\n\n");
                 }
                 else
                 {
-                    printf("\n\n");
-                    for(i=1; i<=6; i++)
+                    aux = pos_week;
+                    printf("\n\n\n");
+                    printf("  Mon Tue Wed Thu Fri Sat Sun\n");
+                    for(i=1; i<=pos_week; i++)
                     {
-                        for(j=1; j<=SEVENDAYS; j++)
+                        if(i != pos_week)
                         {
-                            if(i == 1)
+                            printf("%4.c", space);
+                        }
+                        else
+                        {
+                            for(j=1; j<=days; j++)
                             {
-                                printf("Mon Tue Wed Thu Fri Sat Sun");
-                            }
-                            else
-                            {
-                                if(j == 1)
+                                printf("%4.d", j);
+                                if(aux == 7)
                                 {
-                                    j *= pos_week;
-                                    for(count=1; count<=days; count++)
-                                    {
-                                        printf("%4.d", count);
-                                    }
+                                   printf("\n");
+                                   aux = 1;
+                                }
+                                else
+                                {
+                                    aux += 1;
                                 }
                             }
                         }
-                        printf("\n");
                     }
+                    printf("\n\n\n");
                 }
-            }
-        }while((pos_week < 1) || (pos_week > 7));
+            }while((pos_week < 1) || (pos_week > 7));
+        }
     }while((days < 28) || (days > 31));
 }
