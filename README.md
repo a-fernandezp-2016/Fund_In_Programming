@@ -90,7 +90,7 @@ This course, we are going to learn about C programming. So, we are going to pull
 10. Practice 5.10 (**done**) => its own C code is in the folder Exercise5 > Practice5_10.
 11. Practice 5.11 (**done**) => its own C code is in the folder Exercise5 > Practice5_11.
 12. Practice 5.12 (**done**) => its own C code is in the folder Exercise5 > Practice5_12.
-13. Practice 5.13 => its own C code is in the folder Exercise5 > Practice5_13.
+13. Practice 5.13 (**done**) => its own C code is in the folder Exercise5 > Practice5_13.
 14. Practice 5.14 (**done**) => its own C code is in the folder Exercise5 > Practice5_14.
 15. Practice 5.15 (**done**) => its own C code is in the folder Exercise5 > Practice5_15.
 - The statement of the Exercise 5 is in the folder Exercise5 > PDF.
