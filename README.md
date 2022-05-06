@@ -97,7 +97,7 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 6:
     
-1. Practice 6.1 => its own C code is in the folder Exercise6 > Practice6_1.
+1. Practice 6.1 (**done**) => its own C code is in the folder Exercise6 > Practice6_1.
 - The statement of the Exercise 6 is in the folder Exercise6 > PDF.
 
 ### - Exercises 7:
