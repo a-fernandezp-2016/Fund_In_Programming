@@ -28,7 +28,7 @@ decremented
 #include <stdio.h>
 
 //To define ctes...
-#define MAX_STORAGE 5
+#define MAX_STORAGE 50
 
 void main()
 {
