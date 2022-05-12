@@ -28,7 +28,7 @@ decremented
 #include <stdio.h>
 
 //To define ctes...
-#define MAX_STORAGE 50
+#define MAX_STORAGE 5
 
 void main()
 {
@@ -81,21 +81,17 @@ void main()
         switch(option)
         {
             case 1:
-                if(counter >= MAX_STORAGE)
+                if(counter <= MAX_STORAGE-1)
                 {
-                    option = 2;
-                    if(counter == MAX_STORAGE)
-                    {
-                        printf("]\n\n");
-                    }
-                }
-                else
-                {
-                   //To store the number in one element....
+                    //To store the number in one element....
                     printf("\nPlease, introduce an integer number in the position %d: ", counter);
                     scanf("%d", &store[counter]);
                     printf("\n");
                     counter += 1;
+                }
+                else
+                {
+                    printf("\n\nOUT OF RANGE!!!! Your array only have %d elements or positions.\n\n", counter);
                 }
                 break;
             case 2:
