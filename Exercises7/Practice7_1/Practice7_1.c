@@ -2,11 +2,9 @@
 (word: program would be: margorp). */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <string.h>
-#include <ctype.h>
 
 //To define ctes....
-#define MAX_CHAR 10
+#define MAX_CHAR 11
 
 void main()
 {
@@ -15,7 +13,7 @@ void main()
 
     //To declare other variables...
     char aux;
-    int i, j;
+    int i, j, counter = 0;
 
     //Start the Program....
     printf("\n\n");
@@ -26,13 +24,36 @@ void main()
     printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
     printf("\n");
     printf("Please, introduce a word of maximum 10 letters: ");
-    scanf("%s", &word);
+    fflush(stdin);
+    fgets(word,MAX_CHAR,stdin);
 
-    //To use the bubble method to change the letter positions...
-    j = MAX_CHAR-1;
+    //To change the \n by \0...
     for(i=0; i<MAX_CHAR; i++)
     {
-        if(i != j)
+        if(word[i] == '\n')
+        {
+            word[i] = '\0';
+        }
+    }
+
+    //To find the final of the word...
+    for(i=0; i<MAX_CHAR; i++)
+    {
+        if(word[i] == '\0')
+        {
+            i = MAX_CHAR;
+        }
+        else
+        {
+            counter += 1;
+        }
+    }
+
+    //To use the bubble method to change the letter positions...
+    j = counter-1;
+    for(i=0; i<counter; i++)
+    {
+        if(i < j)
         {
             aux = word[i];
             word[i] = word[j];
