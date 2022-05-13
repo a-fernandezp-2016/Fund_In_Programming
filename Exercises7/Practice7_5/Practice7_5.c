@@ -90,6 +90,7 @@ void main()
         else
         {
             stringFinal[i] = '\0';
+            i = MAX_FINAL;
         }
     }
 

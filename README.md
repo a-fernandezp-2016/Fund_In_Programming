@@ -102,11 +102,11 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 7:
     
-1. Practice 7.1 => its own C code is in the folder Exercise7 > Practice7_1.
-2. Practice 7.2 => its own C code is in the folder Exercise7 > Practice7_2.
-3. Practice 7.3 => its own C code is in the folder Exercise7 > Practice7_3.
+1. Practice 7.1 (**done**) => its own C code is in the folder Exercise7 > Practice7_1.
+2. Practice 7.2 (**done**) => its own C code is in the folder Exercise7 > Practice7_2.
+3. Practice 7.3 (**done**) => its own C code is in the folder Exercise7 > Practice7_3.
 4. Practice 7.4 => its own C code is in the folder Exercise7 > Practice7_4.
-5. Practice 7.5 => its own C code is in the folder Exercise7 > Practice7_5.
+5. Practice 7.5 (**done**) => its own C code is in the folder Exercise7 > Practice7_5.
 6. Practice 7.6 => its own C code is in the folder Exercise7 > Practice7_6.
 7. Practice 7.7 => its own C code is in the folder Exercise7 > Practice7_7.
 - The statement of the Exercise 7 is in the folder Exercise7 > PDF.
