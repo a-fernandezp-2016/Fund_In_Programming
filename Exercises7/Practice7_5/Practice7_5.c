@@ -94,6 +94,6 @@ void main()
         }
     }
 
-    //To print the the concatenated words in a string between one space...
+    //To print the concatenated words in a string between one space...
     printf("\n\nThe concatenated string is: %s.\n\n", stringFinal);
 }
