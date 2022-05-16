@@ -2,17 +2,19 @@
 palindrome is a word that reads the same backwards as forwards, such as anna. */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <string.h>
 
 //To define ctes....
 #define MAX_CHAR 11
 
 void main()
 {
-    //To declare an array for saving the string.
+    //To declare an array for saving the introduced word...
     char word[MAX_CHAR];
-
+    //To declare an array for saving the reversed word...
+    char reverse[MAX_CHAR];
     //To declare other variables...
-    int i, j, counter = 0, check_palin = 0;
+    int i, j = 0, result;
 
     //Start the Program....
     printf("\n\n");
@@ -22,10 +24,11 @@ void main()
     printf("\n");
     printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
     printf("\n");
+
+    //To introduce by keyboard...
     printf("Please, introduce a word of maximum 10 letters: ");
     fflush(stdin);
     fgets(word,MAX_CHAR,stdin);
-
     //To change the \n by \0...
     for(i=0; i<MAX_CHAR; i++)
     {
@@ -35,37 +38,20 @@ void main()
         }
     }
 
-    //To find the final of the word...
-    for(i=0; i<MAX_CHAR; i++)
+    //To do the main part of the program and to print...
+    for(i=strlen(word)-1; i>=0; i--)
     {
-        if(word[i] == '\0')
-        {
-            i = MAX_CHAR;
-        }
-        else
-        {
-            counter += 1;
-        }
+        reverse[j] = word[i];
+        j++;
     }
 
-    //To use the method to check if it is palindrome...
-    j = counter-1;
-    for(i=0; i<counter; i++)
+    result = strcmp(word, reverse);
+    if(result == 0)
     {
-        if(word[i] != word[j] && i<j)
-        {
-            check_palin = 1;
-        }
-        j--;
-    }
-
-    //To print the palindrome word...
-    if(check_palin == 1)
-    {
-        printf("\n\nThe word %s is NOT a PALINDROME.\n\n", word);
+        printf("\n\nThe word %s is a PALINDROME.\n\n", word);
     }
     else
     {
-        printf("\n\nThe word %s is a PALINDROME.\n\n", word);
+        printf("\n\nThe word %s is NOT a PALINDROME.\n\n", word);
     }
 }

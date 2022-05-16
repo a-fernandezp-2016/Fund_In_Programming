@@ -2,6 +2,7 @@
 a space in between and then display the final string. */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <string.h>
 
 //To define ctes....
 #define MAX_CHAR 16
@@ -15,7 +16,7 @@ void main()
     char stringFinal[MAX_FINAL];
 
     //To declare other variables...
-    int i, j = 0, counterA = 0, counterB = 0;
+    int i, j;
 
     //Start the Program....
     printf("\n\n");
@@ -25,13 +26,14 @@ void main()
     printf("\n");
     printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
     printf("\n");
+
+    //To introduce by keyboard...
     printf("Please, write the first word of maximum 15 characters: ");
     fflush(stdin);
     fgets(wordA,MAX_CHAR,stdin);
     printf("Please, write the second word of maximum 15 characters: ");
     fflush(stdin);
     fgets(wordB,MAX_CHAR,stdin);
-
     //To change the \n by \0...
     for(i=0; i<MAX_CHAR; i++)
     {
@@ -45,55 +47,26 @@ void main()
         }
     }
 
-    //To find the length of the word A...
-    for(i=0; i<MAX_CHAR; i++)
+    //To do the main part of the program...
+    for(i=0; i<=strlen(wordA); i++)
     {
-        if(wordA[i] == '\0')
-        {
-            i = MAX_CHAR;
-        }
-        else
-        {
-            counterA += 1;
-        }
-    }
-
-    //To find the length of the word B...
-    for(i=0; i<MAX_CHAR; i++)
-    {
-        if(wordB[i] == '\0')
-        {
-            i = MAX_CHAR;
-        }
-        else
-        {
-            counterB += 1;
-        }
-    }
-
-    //To concatenate the words in a string between one space...
-    for(i=0; i<MAX_FINAL; i++)
-    {
-        if(i < counterA)
-        {
-            stringFinal[i] = wordA[i];
-        }
-        else if(i == counterA)
+        if(i == strlen(wordA))
         {
             stringFinal[i] = ' ';
         }
-        else if(j < counterB)
-        {
-            stringFinal[i] = wordB[j];
-            j++;
-        }
         else
         {
-            stringFinal[i] = '\0';
-            i = MAX_FINAL;
+            stringFinal[i] = wordA[i];
         }
     }
 
-    //To print the concatenated words in a string between one space...
+    j = strlen(wordA) + 1;
+    for(i=0; i<=strlen(wordB); i++)
+    {
+        stringFinal[j] = wordB[i];
+        j++;
+    }
+
+    //To print the result...
     printf("\n\nThe concatenated string is: %s.\n\n", stringFinal);
 }

@@ -3,18 +3,18 @@ appear in the word. If the letter is not found in the word display the message t
 found. */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <string.h>
 
 //To define ctes....
 #define MAX_CHAR 16
 
 void main()
 {
-    //To declare an array for saving the string.
+    //To declare an array for saving the word.
     char word[MAX_CHAR];
     char letter;
-
     //To declare other variables...
-    int i, counter = 0, times = 0;
+    int i, times = 0;
 
     //Start the Program....
     printf("\n\n");
@@ -24,6 +24,8 @@ void main()
     printf("\n");
     printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
     printf("\n");
+
+    //To introduce by keyboard...
     printf("Please, write a word of maximum 15 characters: ");
     fflush(stdin);
     fgets(word,MAX_CHAR,stdin);
@@ -36,6 +38,7 @@ void main()
         }
     }
 
+    fflush(stdin);
     do
     {
         printf("Please, write a letter: ");
@@ -43,21 +46,8 @@ void main()
 
     }while((letter < 'A') || (letter > 'Z' && letter < 'a') || (letter > 'z'));
 
-    //To find the length of the word...
-    for(i=0; i<MAX_CHAR; i++)
-    {
-        if(word[i] == '\0')
-        {
-            i = MAX_CHAR;
-        }
-        else
-        {
-            counter += 1;
-        }
-    }
-
-    //To find the letter in the word...
-    for(i=0; i<counter; i++)
+    //To do the main part of the program...
+    for(i=0; i<strlen(word); i++)
     {
         if(word[i] == letter)
         {
@@ -68,7 +58,7 @@ void main()
     //To print the number of times that the letter appear in the word...
     if(times == 0)
     {
-        printf("\n\nThe letter does not appear any time in the word.\n\n");
+        printf("\n\nThe letter has NOT found in the word.\n\n");
     }
     else if(times == 1)
     {
