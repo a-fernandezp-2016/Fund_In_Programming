@@ -17,9 +17,9 @@ void main()
 
     //To do the iteration for obtaining the factorial of num.
     printf("\n\n");
-    for(i=1; i<num; i++)
+    for(i=2; i<=num; i++)
     {
-        store *= (i+1);
+        store *= i;
     }
 
     //To print the results....
