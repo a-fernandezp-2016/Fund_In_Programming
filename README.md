@@ -114,10 +114,6 @@ This course, we are going to learn about C programming. So, we are going to pull
 ### - Exercises 8:
     
 1. Practice 8.1 => its own C code is in the folder Exercise8 > Practice8_1.
-2. Practice 8.2 => its own C code is in the folder Exercise8 > Practice8_2.
-3. Practice 8.3 => its own C code is in the folder Exercise8 > Practice8_3.
-4. Practice 8.4 => its own C code is in the folder Exercise8 > Practice8_4.
-5. Practice 8.5 => its own C code is in the folder Exercise8 > Practice8_5.
 - The statement of the Exercise 8 is in the folder Exercise8 > PDF.
 
 ### - Exercises 9:
