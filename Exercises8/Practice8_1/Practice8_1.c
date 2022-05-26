@@ -164,10 +164,15 @@ void main()
                             switch(op)
                             {
                                 case 1:
-                                    enteringValues(&vector_num[counter], counter);
+                                    enteringValues(&vector_num, &counter, &op);
+                                    if(op == 2)
+                                    {
+                                        displayValues(&vector_num, &counter);
+                                        printf("\n");
+                                    }
                                     break;
                                 case 2:
-                                    displayValues(&vector_num[counter], counter);
+                                    displayValues(&vector_num, &counter);
                                     break;
                                 default:
                                     printf("\nEND OF PLAYING WITH ARRAYS!!!\n\n");
@@ -249,28 +254,45 @@ void switchNumbers(int *a, int *b)
     int aux;
 
     //Main part of the function and doing the Bubble Method.
-    aux = a;
-    a = b;
-    b = aux;
+    aux = *a;
+    *a = *b;
+    *b = aux;
 }
 
-void enteringValues(int *array[], int c)
+void enteringValues(int *array[], int *c, int *option)
 {
-    printf("\nPlease, introduce an integer number in the position %d: ", c);
-    if(c < MAX_ELEMENTS-1)
+    //Main part of the function...
+    if(*c < MAX_ELEMENTS-1)
     {
         //To store the number in one element....
-        printf("\nPlease, introduce an integer number in the position %d: ", c);
-        scanf("%d", &array[c]);
-        c += 1;
+        printf("\nPlease, introduce an integer number in the position %d: ", *c);
+        scanf("%d", &array[*c]);
+        *c += 1;
     }
     else
     {
-        printf("\n\nOUT OF RANGE!!!! Your array only have %d elements or positions.\n\n", c);
+        printf("\n\nOUT OF RANGE!!!! Your array only have %d elements or positions.\n\n", *c);
+        *option = 2;
     }
 }
 
-void displayValues(int *array[], int c)
+void displayValues(int *array[], int *c)
 {
+    ////To declare variables of the function only.
+    int i;
 
+    //Main part of the function and print the whole array....
+    printf("\n\n[");
+    for(i=0; i<*c; i++)
+    {
+        if(i == *c-1)
+        {
+            printf("%d", array[i]);
+        }
+        else
+        {
+            printf("%d,", array[i]);
+        }
+    }
+    printf("]\n\n");
 }
