@@ -40,7 +40,6 @@
 
 //Headers of the Functions and Procedures...
 int factorial();
-int binomial_Coeff();
 int addingNumbers();
 void switchNumbers();
 void enteringValues();
@@ -52,7 +51,7 @@ void main()
     int vector_num[MAX_ELEMENTS];
 
     //To declare variables...
-    int option, num, n_fact, n, k, result_bc, x, y, result_add, i, j, counter = 0, op;
+    int option, num, n_fact, n, k, nk, result_n, result_k, result_nk, result_bc, x, y, result_add, i, j, counter = 0, op;
 
     //Start the Program....
     printf("\n");
@@ -107,8 +106,12 @@ void main()
                         }
                         else
                         {
-                           result_bc = binomial_Coeff(n,k);
-                           printf("\nThe Binomial Coefficient of %d and %d is: %d.\n\n", n, k, result_bc);
+                           result_n = factorial(n);
+                           result_k = factorial(k);
+                           nk = n - k;
+                           result_nk = factorial(nk);
+                           result_bc = result_n / (result_k * result_nk);
+                           printf("\nThe Binomial Coefficient of n = %d and k = %d is: %d.\n\n", n, k, result_bc);
                         }
                     }while(n < k || k < 0);
                     break;
@@ -210,29 +213,6 @@ int factorial(int a)
         }
         return -store;
     }
-}
-
-int binomial_Coeff(int a, int b)
-{
-    //To declare variables of the function only.
-    int i, storeA = 1, storeB = 1, storeC = 1, aux, result;
-
-    //Main part of the function.
-    for(i=1; i<=a; i++)
-    {
-        storeA *= i;
-    }
-    for(i=1; i<=b; i++)
-    {
-        storeB *= i;
-    }
-    aux = a - b;
-    for(i=1; i<=aux; i++)
-    {
-        storeC *= i;
-    }
-    result = storeA / (storeB * storeC);
-    return result;
 }
 
 int addingNumbers(int a, int b)

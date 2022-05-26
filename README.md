@@ -31,22 +31,22 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 2:
     
-1. Practice 2.1 (**done**) => its own C code is in the folder Exercise2 > Practice2_1.
-2. Practice 2.2 (**done**) => its own C code is in the folder Exercise2 > Practice2_2.
-3. Practice 2.3 (**done**) => its own C code is in the folder Exercise2 > Practice2_3.
-4. Practice 2.4 (**done**) => its own C code is in the folder Exercise2 > Practice2_4.
-5. Practice 2.5 (**done**) => its own C code is in the folder Exercise2 > Practice2_5.
-6. Practice 2.6 (**done**) => its own C code is in the folder Exercise2 > Practice2_6.
-7. Practice 2.7 (**done**) => its own C code is in the folder Exercise2 > Practice2_7.
-8. Practice 2.8 (**done**) => its own C code is in the folder Exercise2 > Practice2_8.
-9. Practice 2.9 (**done**) => its own C code is in the folder Exercise2 > Practice2_9.
-10. Practice 2.10 (**done**) => its own C code is in the folder Exercise2 > Practice2_10.
-11. Practice 2.11 (**done**) => its own C code is in the folder Exercise2 > Practice2_11.
-12. Practice 2.12 (**done**) => its own C code is in the folder Exercise2 > Practice2_12.
-13. Practice 2.13 (**done**) => its own C code is in the folder Exercise2 > Practice2_13.
-14. Practice 2.14 (**done**) => its own C code is in the folder Exercise2 > Practice2_14.
-15. Practice 2.15 (**done**) => its own C code is in the folder Exercise2 > Practice2_15.
-16. Practice 2.16 (**done**) => its own C code is in the folder Exercise2 > Practice2_16.
+1. Practice 2.1 (**done**) => its own C code is in the folder Exercise2 > 1EnterDisplayInt.
+2. Practice 2.2 (**done**) => its own C code is in the folder Exercise2 > 2EnterDisplayFloat.
+3. Practice 2.3 (**done**) => its own C code is in the folder Exercise2 > 3DivideDisplay2int.
+4. Practice 2.4 (**done**) => its own C code is in the folder Exercise2 > 4Divide2intDisplayFloat.
+5. Practice 2.5 (**done**) => its own C code is in the folder Exercise2 > 5Divide2intConvertToFloatDisplay.
+6. Practice 2.6 (**done**) => its own C code is in the folder Exercise2 > 6EnterFloatDisplayInt.
+7. Practice 2.7 (**done**) => its own C code is in the folder Exercise2 > 7EnterDisplayChar.
+8. Practice 2.8 (**done**) => its own C code is in the folder Exercise2 > 8EnterCharDisplayASCIIvalue.
+9. Practice 2.9 (**done**) => its own C code is in the folder Exercise2 > 9RepresentationInDifferentWays.
+10. Practice 2.10 (**done**) => its own C code is in the folder Exercise2 > 10DisplaySizesOfVariables.
+11. Practice 2.11 (**done**) => its own C code is in the folder Exercise2 > 11QuantityOfArtificialFertilizer.
+12. Practice 2.12 (**done**) => its own C code is in the folder Exercise2 > 12ConversionOfTime.
+13. Practice 2.13 (**done**) => its own C code is in the folder Exercise2 > 13IntegerAndDecimalParts.
+14. Practice 2.14 (**done**) => its own C code is in the folder Exercise2 > 14Subtract32inASCII.
+15. Practice 2.15 (**done**) => its own C code is in the folder Exercise2 > 15DisplayNextCharOfASCII.
+16. Practice 2.16 (**done**) => its own C code is in the folder Exercise2 > 16TimeOfFlightForaMultirotor.
 - The statement of the Exercise 2 is in the folder Exercise2 > PDF.
 
 - Important image about the ASCII Table => ![](ASCII_Table.jpg)
