@@ -16,38 +16,38 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 1:
     
-1. Hello World (**done**) => its own C code is in the folder Exercise1 > 1HelloWorld.
-2. Print Integer (**done**) => its own C code is in the folder Exercise1 > 2Print_Integer.
-3. Print Three Integers (**done**) => its own C code is in the folder Exercise1 > 3Print_Three_Integers.
-4. Read Integer (**done**) => its own C code is in the folder Exercise1 > 4Read_Integer.
-5. Read Two Integers (**done**) => its own C code is in the folder Exercise1 > 5Read_Two_Integers.
-6. Your Year (**done**) => its own C code is in the folder Exercise1 > 6Your_Year.
-7. Other Years (**done**) => its own C code is in the folder Exercise1 > 7Other_Years.
-8. Swap Digits (**done**) => its own C code is in the folder Exercise1 > 8Swap_Digits => ![](Swap_Digits.png)
-9. Complex numbers (**done**) => its own C code is in the folder Exercise1 > 9Complex_numbers.
-10. Photo Store (**done**) => its own C code is in the folder Exercise1 > 10Photo_Store => ![](Photo_Store.jpg)
-11. Food for a cat (**done**) => its own C code is in the folder Exercise1 > 11Food_for_cat => ![](Food_for_cat.jpg)
-- The statement of the Exercise 1 is in the folder Exercise1 > PDF.
+1. Hello World (**done**) => its own C code is in the folder 1HelloWorld > 1HelloWorld.
+2. Print Integer (**done**) => its own C code is in the folder 1HelloWorld > 2Print_Integer.
+3. Print Three Integers (**done**) => its own C code is in the folder 1HelloWorld > 3Print_Three_Integers.
+4. Read Integer (**done**) => its own C code is in the folder 1HelloWorld > 4Read_Integer.
+5. Read Two Integers (**done**) => its own C code is in the folder 1HelloWorld > 5Read_Two_Integers.
+6. Your Year (**done**) => its own C code is in the folder 1HelloWorld > 6Your_Year.
+7. Other Years (**done**) => its own C code is in the folder 1HelloWorld > 7Other_Years.
+8. Swap Digits (**done**) => its own C code is in the folder 1HelloWorld > 8Swap_Digits => ![](Swap_Digits.png)
+9. Complex numbers (**done**) => its own C code is in the folder 1HelloWorld > 9Complex_numbers.
+10. Photo Store (**done**) => its own C code is in the folder 1HelloWorld > 10Photo_Store => ![](Photo_Store.jpg)
+11. Food for a cat (**done**) => its own C code is in the folder 1HelloWorld > 11Food_for_cat => ![](Food_for_cat.jpg)
+- The statement of the Exercise 1 is in the folder 1HelloWorld > PDF(Excercises1 - Hello World).
 
 ### - Exercises 2:
     
-1. Practice 2.1 (**done**) => its own C code is in the folder Exercise2 > 1EnterDisplayInt.
-2. Practice 2.2 (**done**) => its own C code is in the folder Exercise2 > 2EnterDisplayFloat.
-3. Practice 2.3 (**done**) => its own C code is in the folder Exercise2 > 3DivideDisplay2int.
-4. Practice 2.4 (**done**) => its own C code is in the folder Exercise2 > 4Divide2intDisplayFloat.
-5. Practice 2.5 (**done**) => its own C code is in the folder Exercise2 > 5Divide2intConvertToFloatDisplay.
-6. Practice 2.6 (**done**) => its own C code is in the folder Exercise2 > 6EnterFloatDisplayInt.
-7. Practice 2.7 (**done**) => its own C code is in the folder Exercise2 > 7EnterDisplayChar.
-8. Practice 2.8 (**done**) => its own C code is in the folder Exercise2 > 8EnterCharDisplayASCIIvalue.
-9. Practice 2.9 (**done**) => its own C code is in the folder Exercise2 > 9RepresentationInDifferentWays.
-10. Practice 2.10 (**done**) => its own C code is in the folder Exercise2 > 10DisplaySizesOfVariables.
-11. Practice 2.11 (**done**) => its own C code is in the folder Exercise2 > 11QuantityOfArtificialFertilizer.
-12. Practice 2.12 (**done**) => its own C code is in the folder Exercise2 > 12ConversionOfTime.
-13. Practice 2.13 (**done**) => its own C code is in the folder Exercise2 > 13IntegerAndDecimalParts.
-14. Practice 2.14 (**done**) => its own C code is in the folder Exercise2 > 14Subtract32inASCII.
-15. Practice 2.15 (**done**) => its own C code is in the folder Exercise2 > 15DisplayNextCharOfASCII.
-16. Practice 2.16 (**done**) => its own C code is in the folder Exercise2 > 16TimeOfFlightForaMultirotor.
-- The statement of the Exercise 2 is in the folder Exercise2 > PDF.
+1. Practice 2.1 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 1EnterDisplayInt.
+2. Practice 2.2 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 2EnterDisplayFloat.
+3. Practice 2.3 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 3DivideDisplay2int.
+4. Practice 2.4 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 4Divide2intDisplayFloat.
+5. Practice 2.5 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 5Divide2intConvertToFloatDisplay.
+6. Practice 2.6 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 6EnterFloatDisplayInt.
+7. Practice 2.7 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 7EnterDisplayChar.
+8. Practice 2.8 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 8EnterCharDisplayASCIIvalue.
+9. Practice 2.9 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 9RepresentationInDifferentWays.
+10. Practice 2.10 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 10DisplaySizesOfVariables.
+11. Practice 2.11 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 11QuantityOfArtificialFertilizer.
+12. Practice 2.12 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 12ConversionOfTime.
+13. Practice 2.13 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 13IntegerAndDecimalParts.
+14. Practice 2.14 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 14Subtract32inASCII.
+15. Practice 2.15 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 15DisplayNextCharOfASCII.
+16. Practice 2.16 (**done**) => its own C code is in the folder 2DataTypes_Conversions > 16TimeOfFlightForaMultirotor.
+- The statement of the Exercise 2 is in the folder 2DataTypes_Conversions > PDF(Excercises2 - Data types in C and conversions).
 
 - Important image about the ASCII Table => ![](ASCII_Table.jpg)
 
