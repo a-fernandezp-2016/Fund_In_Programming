@@ -53,15 +53,15 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 3:
     
-1. Practice 3.1 (**done**) => its own C code is in the folder 3Arithmetic_Operators > Practice3_1.
-2. Practice 3.2 (**done**) => its own C code is in the folder 3Arithmetic_Operators > Practice3_2.
-3. Practice 3.3 (**done**) => its own C code is in the folder 3Arithmetic_Operators > Practice3_3.
-4. Practice 3.4 (**done**) => its own C code is in the folder 3Arithmetic_Operators > Practice3_4.
-5. Practice 3.5 (**done**) => its own C code is in the folder 3Arithmetic_Operators > Practice3_5.
-6. Practice 3.6 (**done**) => its own C code is in the folder 3Arithmetic_Operators > Practice3_6.
-7. Practice 3.7 (**done**) => its own C code is in the folder 3Arithmetic_Operators > Practice3_7.
-8. Practice 3.8 (**done**) => its own C code is in the folder 3Arithmetic_Operators > Practice3_8.
-9. Practice 3.9 (**done**) => its own C code is in the folder 3Arithmetic_Operators > Practice3_9.
+1. Practice 3.1 (**done**) => its own C code is in the folder 3Arithmetic_Operators > 1AreaCircle.
+2. Practice 3.2 (**done**) => its own C code is in the folder 3Arithmetic_Operators > 2CarConsumption.
+3. Practice 3.3 (**done**) => its own C code is in the folder 3Arithmetic_Operators > 3Hypotenuse.
+4. Practice 3.4 (**done**) => its own C code is in the folder 3Arithmetic_Operators > 4AreaOfTriangle.
+5. Practice 3.5 (**done**) => its own C code is in the folder 3Arithmetic_Operators > 5CurrencyConverter.
+6. Practice 3.6 (**done**) => its own C code is in the folder 3Arithmetic_Operators > 6AnumberTOthreeVariables.
+7. Practice 3.7 (**done**) => its own C code is in the folder 3Arithmetic_Operators > 7Temperature.
+8. Practice 3.8 (**done**) => its own C code is in the folder 3Arithmetic_Operators > 8SecTOhours_min_sec.
+9. Practice 3.9 (**done**) => its own C code is in the folder 3Arithmetic_Operators > 9cmTOfeetANDinches.
 - The statement of the Exercise 3 is in the folder 3Arithmetic_Operators > PDF(Excercises3 - Arithmetic operators).
 
 ### - Exercises 4:
