@@ -66,60 +66,60 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 4:
     
-1. Practice 4.1 (**done**) => its own C code is in the folder Exercise4 > Practice4_1.
-2. Practice 4.2 (**done**) => its own C code is in the folder Exercise4 > Practice4_2.
-3. Practice 4.3 (**done**) => its own C code is in the folder Exercise4 > Practice4_3.
-4. Practice 4.4 (**done**) => its own C code is in the folder Exercise4 > Practice4_4.
-5. Practice 4.5 (**done**) => its own C code is in the folder Exercise4 > Practice4_5.
-6. Practice 4.6 (**done**) => its own C code is in the folder Exercise4 > Practice4_6.
-7. Practice 4.7 (**done**) => its own C code is in the folder Exercise4 > Practice4_7.
-8. Practice 4.8 (**done**) => its own C code is in the folder Exercise4 > Practice4_8.
-- The statement of the Exercise 4 is in the folder Exercise4 > PDF.
+1. Practice 4.1 (**done**) => its own C code is in the folder 4Conditions > 1AbsoluteValue.
+2. Practice 4.2 (**done**) => its own C code is in the folder 4Conditions > 2TypeOfCharacter.
+3. Practice 4.3 (**done**) => its own C code is in the folder 4Conditions > 3TypeOfYear.
+4. Practice 4.4 (**done**) => its own C code is in the folder 4Conditions > 4PositiveORnegativeEQUATION.
+5. Practice 4.5 (**done**) => its own C code is in the folder 4Conditions > 5QuadraticEquation.
+6. Practice 4.6 (**done**) => its own C code is in the folder 4Conditions > 6Divisibility.
+7. Practice 4.7 (**done**) => its own C code is in the folder 4Conditions > 7TheGradeOfaStudent.
+8. Practice 4.8 (**done**) => its own C code is in the folder 4Conditions > 8LowestToHighestNUMS.
+- The statement of the Exercise 4 is in the folder 4Conditions > PDF(Excercises4 - Logical and relational operators, Conditions).
 
 ### - Exercises 5:
     
-1. Practice 5.1 (**done**) => its own C code is in the folder Exercise5 > Practice5_1.
-2. Practice 5.2 (**done**) => its own C code is in the folder Exercise5 > Practice5_2.
-3. Practice 5.3 (**done**) => its own C code is in the folder Exercise5 > Practice5_3.
-4. Practice 5.4 (**done**) => its own C code is in the folder Exercise5 > Practice5_4.
-5. Practice 5.5 (**done**) => its own C code is in the folder Exercise5 > Practice5_5.
-6. Practice 5.6 (**done**) => its own C code is in the folder Exercise5 > Practice5_6.
-7. Practice 5.7 (**done**) => its own C code is in the folder Exercise5 > Practice5_7.
-8. Practice 5.8 (**done**) => its own C code is in the folder Exercise5 > Practice5_8.
-9. Practice 5.9 (**done**) => its own C code is in the folder Exercise5 > Practice5_9.
-10. Practice 5.10 (**done**) => its own C code is in the folder Exercise5 > Practice5_10.
-11. Practice 5.11 (**done**) => its own C code is in the folder Exercise5 > Practice5_11.
-12. Practice 5.12 (**done**) => its own C code is in the folder Exercise5 > Practice5_12.
-13. Practice 5.13 (**done**) => its own C code is in the folder Exercise5 > Practice5_13.
-14. Practice 5.14 (**done**) => its own C code is in the folder Exercise5 > Practice5_14.
-15. Practice 5.15 (**done**) => its own C code is in the folder Exercise5 > Practice5_15.
-- The statement of the Exercise 5 is in the folder Exercise5 > PDF.
+1. Practice 5.1 (**done**) => its own C code is in the folder 5Loops > 1PrintTheMonth.
+2. Practice 5.2 (**done**) => its own C code is in the folder 5Loops > 2Calculator.
+3. Practice 5.3 (**done**) => its own C code is in the folder 5Loops > 3PrintAllNumbersFrom1toN.
+4. Practice 5.4 (**done**) => its own C code is in the folder 5Loops > 4PrintAllNumbersFrom1toN_divisibleBy3.
+5. Practice 5.5 (**done**) => its own C code is in the folder 5Loops > 5AddsUpFrom1toN.
+6. Practice 5.6 (**done**) => its own C code is in the folder 5Loops > 6FactorialOfN.
+7. Practice 5.7 (**done**) => its own C code is in the folder 5Loops > 7((ABC)%(AC) == 0).
+8. Practice 5.8 (**done**) => its own C code is in the folder 5Loops > 8GCDandLCD.
+9. Practice 5.9 (**done**) => its own C code is in the folder 5Loops > 9PrintAllNumbersFrom1toN_divisibleBy17.
+10. Practice 5.10 (**done**) => its own C code is in the folder 5Loops > 10DecimalTObinary.
+11. Practice 5.11 (**done**) => its own C code is in the folder 5Loops > 11MenuOf3TypesOfTriangles.
+12. Practice 5.12 (**done**) => its own C code is in the folder 5Loops > 12FibonacciSequence.
+13. Practice 5.13 (**done**) => its own C code is in the folder 5Loops > 13MakingDiamondsWith1num.
+14. Practice 5.14 (**done**) => its own C code is in the folder 5Loops > 14MultiplicationTableLoop.
+15. Practice 5.15 (**done**) => its own C code is in the folder 5Loops > 15SpecificCalendarLoop.
+- The statement of the Exercise 5 is in the folder 5Loops > PDF(Excercises5 - Loops).
 
 ### - Exercises 6:
     
-1. Practice 6.1 (**done**) => its own C code is in the folder Exercise6 > Practice6_1.
-- The statement of the Exercise 6 is in the folder Exercise6 > PDF.
+1. Practice 6.1 (**done**) => its own C code is in the folder 6Arrays > 1MenuArrays.
+- The statement of the Exercise 6 is in the folder 6Arrays > PDF(Excercises6 - Arrays).
 
 ### - Exercises 7:
     
-1. Practice 7.1 (**done**) => its own C code is in the folder Exercise7 > Practice7_1.
-2. Practice 7.2 (**done**) => its own C code is in the folder Exercise7 > Practice7_2.
-3. Practice 7.3 (**done**) => its own C code is in the folder Exercise7 > Practice7_3.
-4. Practice 7.4 (**done**) => its own C code is in the folder Exercise7 > Practice7_4.
-5. Practice 7.5 (**done**) => its own C code is in the folder Exercise7 > Practice7_5.
-6. Practice 7.6 (**done**) => its own C code is in the folder Exercise7 > Practice7_6.
-7. Practice 7.7 (**done**) => its own C code is in the folder Exercise7 > Practice7_7.
-- The statement of the Exercise 7 is in the folder Exercise7 > PDF.
+1. Practice 7.1 (**done**) => its own C code is in the folder 7Strings > 1BackwardsWord.
+2. Practice 7.2 (**done**) => its own C code is in the folder 7Strings > 2PalindromeWord.
+3. Practice 7.3 (**done**) => its own C code is in the folder 7Strings > 3HowManyNumbersInOneString.
+4. Practice 7.4 (**done**) => its own C code is in the folder 7Strings > 4SecondWordInTheFirstWord.
+5. Practice 7.5 (**done**) => its own C code is in the folder 7Strings > 5Concatenates2Words.
+6. Practice 7.6 (**done**) => its own C code is in the folder 7Strings > 6HowManyTimesDoesTheLetterAppear.
+7. Practice 7.7 (**done**) => its own C code is in the folder 7Strings > 7_5eurosTOfiveeuros.
+- The statement of the Exercise 7 is in the folder 7Strings > PDF(Excercises7 - Strings).
 
 ### - Exercises 8:
     
-1. Practice 8.1 (**done**) => its own C code is in the folder Exercise8 > Practice8_1.
-- The statement of the Exercise 8 is in the folder Exercise8 > PDF.
+1. Practice 8.1 (**done**) => its own C code is in the folder 8Functions > 1MenuWithFunctions.
+- The statement of the Exercise 8 is in the folder 8Functions > PDF(Excercises8 - Functions and procedures).
 
 ### - Exercises 9:
     
-1. Practice 9.1 => its own C code is in the folder Exercise9 > Practice9_1.
-- The statement of the Exercise 9 is in the folder Exercise9 > PDF.
+1. Practice 9.1 => its own C code is in the folder 9Structs > 1FinalProgramWithStructs.
+- The statement of the Exercise 9 is in the folder 9Structs > PDF(Excercises9 - Composite data types).
 
 <br>
 
