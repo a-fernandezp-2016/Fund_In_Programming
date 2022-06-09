@@ -258,7 +258,7 @@ void enteringValues(int *array[], int *c, int *option)
 
 void displayValues(int *array[], int *c)
 {
-    ////To declare variables of the function only.
+    //To declare variables of the function only.
     int i;
 
     //Main part of the function and print the whole array....
