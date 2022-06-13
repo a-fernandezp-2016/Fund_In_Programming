@@ -134,7 +134,7 @@ void main()
                 {
                     printf("\n\nWhat position of the array that do you want to modify? : ");
                     scanf("%d", &index);
-                    if(index<0 || index>=counter)
+                    if(index<=0 || index>counter)
                     {
                         printf("\n\nOUT OF RANGE!!!\n\n");
                     }

@@ -118,7 +118,7 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 ### - Exercises 9:
     
-1. Practice 9.1 => its own C code is in the folder 9Structs > 1FinalProgramWithStructs.
+1. Practice 9.1 (**done**) => its own C code is in the folder 9Structs > 1FinalProgramWithStructs.
 - The statement of the Exercise 9 is in the folder 9Structs > PDF(Excercises9 - Composite data types).
 
 <br>

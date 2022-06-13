@@ -30,6 +30,7 @@
     arguments the address of the array and the number of elements
     entered in the array.
     0. Exit. */
+//Libraries of C Programming...
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
@@ -45,6 +46,7 @@ void switchNumbers();
 void enteringValues();
 void displayValues();
 
+//The main program...
 void main()
 {
     //To declare arrays...
@@ -167,7 +169,7 @@ void main()
                             switch(op)
                             {
                                 case 1:
-                                    enteringValues(&vector_num, &counter, &op);
+                                    enteringValues(vector_num, &counter, &op);
                                     if(op == 2)
                                     {
                                         displayValues(&vector_num, &counter);
@@ -175,7 +177,7 @@ void main()
                                     }
                                     break;
                                 case 2:
-                                    displayValues(&vector_num, &counter);
+                                    displayValues(vector_num, &counter);
                                     break;
                                 default:
                                     printf("\nEND OF PLAYING WITH ARRAYS!!!\n\n");
@@ -191,6 +193,7 @@ void main()
     }while(option != 0);
 }
 
+//Functions and Procedures...
 int factorial(int a)
 {
     //To declare variables of the function only.
@@ -239,7 +242,7 @@ void switchNumbers(int *a, int *b)
     *b = aux;
 }
 
-void enteringValues(int *array[], int *c, int *option)
+void enteringValues(int array[], int *c, int *option)
 {
     //Main part of the function...
     if(*c < MAX_ELEMENTS-1)
@@ -256,7 +259,7 @@ void enteringValues(int *array[], int *c, int *option)
     }
 }
 
-void displayValues(int *array[], int *c)
+void displayValues(int array[], int *c)
 {
     //To declare variables of the function only.
     int i;
