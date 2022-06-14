@@ -21,7 +21,7 @@ student has the following fields:
 
 //To define ctes....
 #define MAX_CHARACTERS 11
-#define MAX_STUDENT 51
+#define MAX_STUDENT 50
 
 //To define the struct of the student evidence...
 typedef struct{
@@ -32,14 +32,14 @@ typedef struct{
 }fourESO;
 
 //Headers of the Functions and Procedures...
-void newStudentDATA();
-void displayStudentDATA();
-void searchStudent();
-void changeGrade();
-void deleteData();
-float averageGrade();
-void sortIndex();
-void sortGrade();
+void newStudentDATA(fourESO student[], int *cont);
+void displayStudentDATA(fourESO student[], int *cont);
+void searchStudent(fourESO student[], int *cont);
+void changeGrade(fourESO student[], int *cont);
+void deleteData(fourESO student[], int *cont);
+float averageGrade(fourESO student[], int *cont);
+void sortIndex(fourESO student[], int *cont);
+void sortGrade(fourESO student[], int *cont);
 
 //The main program...
 void main()
@@ -141,12 +141,13 @@ void newStudentDATA(fourESO student[], int *cont)
     printf("Introduce the ID Number of the student %d: ", *cont+1);
     scanf("%d", &student[*cont].id);
     *cont += 1;
+    displayStudentDATA(student, cont);
 }
 
 void displayStudentDATA(fourESO student[], int *cont)
 {
     //To declare variables of the function only.
-    int i, score;
+    int i;
 
     //Main part of the function.
     printf("");
@@ -160,24 +161,23 @@ void displayStudentDATA(fourESO student[], int *cont)
         printf("Surname: %s", student[i].surname);
         printf("ID Number: %d\n", student[i].id);
         printf("Final Score: %d - ", student[i].grade);
-        score = student[i].grade;
-        if(score >= 5 && score <= 6)
+        if(student[i].grade >= 5 && student[i].grade <= 6)
         {
             printf("GRADE C.\n\n");
         }
-        else if(score == 7)
+        else if(student[i].grade == 7)
         {
             printf("GRADE B-.\n\n");
         }
-        else if(score == 8)
+        else if(student[i].grade == 8)
         {
             printf("GRADE B+.\n\n");
         }
-        else if(score == 9)
+        else if(student[i].grade == 9)
         {
             printf("GRADE A-.\n\n");
         }
-        else if(score == 10)
+        else if(student[i].grade == 10)
         {
             printf("GRADE A+.\n\n");
         }
@@ -191,7 +191,7 @@ void displayStudentDATA(fourESO student[], int *cont)
 void searchStudent(fourESO student[], int *cont)
 {
     //To declare variables of the function only.
-    int ident, i, score, found = 0;
+    int ident, i, found = 0;
 
     //Main part of the function.
     printf("Introduce the ID Number of the student that you want to search: ");
@@ -206,24 +206,23 @@ void searchStudent(fourESO student[], int *cont)
             printf("Surname: %s", student[i].surname);
             printf("ID Number: %d\n", student[i].id);
             printf("Final Score: %d - ", student[i].grade);
-            score = student[i].grade;
-            if(score >= 5 && score <= 6)
+            if(student[i].grade >= 5 && student[i].grade <= 6)
             {
                 printf("GRADE C.\n\n");
             }
-            else if(score == 7)
+            else if(student[i].grade == 7)
             {
                 printf("GRADE B-.\n\n");
             }
-            else if(score == 8)
+            else if(student[i].grade == 8)
             {
                 printf("GRADE B+.\n\n");
             }
-            else if(score == 9)
+            else if(student[i].grade == 9)
             {
                 printf("GRADE A-.\n\n");
             }
-            else if(score == 10)
+            else if(student[i].grade == 10)
             {
                 printf("GRADE A+.\n\n");
             }
@@ -242,7 +241,7 @@ void searchStudent(fourESO student[], int *cont)
 void changeGrade(fourESO student[], int *cont)
 {
     //To declare variables of the function only.
-    int ident, i, score, found = 0;
+    int ident, i, found = 0;
 
     //Main part of the function.
     printf("Introduce the ID Number of the student that you want to change the Final Score: ");
@@ -255,13 +254,13 @@ void changeGrade(fourESO student[], int *cont)
             do{
                 printf("Introduce the final score of the student %d: ", i+1);
                 scanf("%d", &student[i].grade);
-                score = student[i].grade;
-                if(score < 0 || score > 10)
+                if(student[i].grade < 0 || student[i].grade > 10)
                 {
                     printf("\n\nPlease, introduce a correct score, between 0 and 10!\n\n");
                 }
 
-            }while(score < 0 || score > 10);
+            }while(student[i].grade < 0 || student[i].grade > 10);
+            displayStudentDATA(student, cont);
         }
     }
     if(found == 0)
@@ -273,7 +272,7 @@ void changeGrade(fourESO student[], int *cont)
 void deleteData(fourESO student[], int *cont)
 {
     //To declare variables of the function only.
-    int ident, i, found = 0;
+    int ident, i, j, found = 0;
 
     //Main part of the function.
     printf("Introduce the ID Number of the student that you want to erase: ");
@@ -283,18 +282,15 @@ void deleteData(fourESO student[], int *cont)
         if(student[i].id == ident)
         {
             found = 1;
-            if(student[i].id == student[*cont-1].id)
+            if(student[i].id != student[*cont-1].id)
             {
-                *cont -= 1;
+                for(j=i; j<*cont-1; j++)
+                {
+                    student[j] = student[j+1];
+                }
             }
-            else
-            {
-                strcpy(student[i].name,student[*cont-1].name);
-                strcpy(student[i].surname, student[*cont-1].surname);
-                student[i].id = student[*cont-1].id;
-                student[i].grade = student[*cont-1].grade;
-                *cont -= 1;
-            }
+            *cont -= 1;
+            displayStudentDATA(student, cont);
         }
     }
     if(found == 0)
@@ -352,7 +348,7 @@ void sortIndex(fourESO student[], int *cont)
             }
         }
     }
-    printf("\n\nSorted from smaller index number to greater index number.\n\n");
+    displayStudentDATA(student, cont);
 }
 
 void sortGrade(fourESO student[], int *cont)
@@ -387,5 +383,5 @@ void sortGrade(fourESO student[], int *cont)
             }
         }
     }
-    printf("\n\nSorted from greater final grade to smaller final grade.\n\n");
+    displayStudentDATA(student, cont);
 }
