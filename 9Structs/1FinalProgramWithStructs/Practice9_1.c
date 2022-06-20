@@ -32,14 +32,14 @@ typedef struct{
 }fourESO;
 
 //Headers of the Functions and Procedures...
-void newStudentDATA(fourESO student[], int *cont);
-void displayStudentDATA(fourESO student[], int *cont);
-void searchStudent(fourESO student[], int *cont);
-void changeGrade(fourESO student[], int *cont);
-void deleteData(fourESO student[], int *cont);
-float averageGrade(fourESO student[], int *cont);
-void sortIndex(fourESO student[], int *cont);
-void sortGrade(fourESO student[], int *cont);
+void newStudentDATA();
+void displayStudentDATA();
+void searchStudent();
+void changeGrade();
+void deleteData();
+float averageGrade();
+void sortIndex();
+void sortGrade();
 
 //The main program...
 void main()
