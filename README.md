@@ -123,4 +123,10 @@ This course, we are going to learn about C programming. So, we are going to pull
 
 <br>
 
+### - Final Exam of Fundamentals in Programming of the FTN in the University of Novi Sad, according to the folder Final_Exam:
+    1. The statement of World Cup Programming Exam, in PDF.
+    2. The files to compile and execute the C Program.
+
+<br>
+
 PS: The photos are editted by Adobe Photoshop.
